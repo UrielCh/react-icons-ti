@@ -1,4 +1,6 @@
-# Typicons icons for deno / Preact
+# Typicons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/ti)](https://jsr.io/@preact-icons/ti)
 
 **License** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
@@ -13,10 +15,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.22.1",
-    "preact/": "https://esm.sh/preact@10.22.1/",
-    "react-icons/ti":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-ti@1.0.10/mod.ts",
-    "react-icons/ti/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ti@1.0.10/ico/",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks",
+    "react-icons/ti": "jsr:@preact-icons/ti@^1.0.11/mod.ts",
+    "react-icons/ti/": "jsr:@preact-icons/ti@^1.0.11/ico/",
   }
 }
 ```
@@ -24,7 +28,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib ti
 
 ```ts
-import { TiAdjustBrightness } from "https://deno.land/x/react_icons_ti@1.0.10/mod.ts"
+import { TiAdjustBrightness } from "jsr:preact-icons/ti@1.0.11/mod.ts"
 ```
 
 ## import_map import an icon from all icons

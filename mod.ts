@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import TiAdjustBrightness from "react-icons/ti/TiAdjustBrightness.ts"
+ * import TiAdjustBrightness from "react-icons/ti/TiAdjustBrightness"
  * ```
  * @module
  * 

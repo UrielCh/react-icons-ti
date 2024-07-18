@@ -1,8 +1,7 @@
 {
   "lock": false,
-  "importMap": "./import_map.json",
   "name": "@preact-icons/ti",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "exports": {
     ".": "./mod.ts",
     "./TiAdjustBrightness": "./ico/TiAdjustBrightness.ts",
@@ -348,7 +347,13 @@
       "deno.ns"
     ],
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "npm:preact@^10.22.1"
+  },
+  "imports": {
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.12",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks"
   },
   "publish": {
     "exclude": [

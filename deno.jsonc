@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/ti",
   "license": "CC BY-SA 3.0",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./TiAdjustBrightness": "./ico/TiAdjustBrightness.ts",
